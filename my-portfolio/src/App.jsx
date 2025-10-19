@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Layout/Header'
 import Footer  from './components/Layout/Footer' 
 import Navigation from './components/Layout/Navigation'
+import Home from './pages/Home'
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
     <>
     <Navigation/>
     <Header/>
-         
+      <Home/>   
       
       <p>Display SOMETHING!</p>
       <Footer/>

@@ -4,10 +4,9 @@ function Navigation () {
     return(
         <nav>
             <ul>
-                <li>DOES</li>
-                <li>THIS</li>
-                <li>STILL</li>
-                <li>WORK?</li>
+                <li>Home</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
             </ul>
         </nav>
     )
