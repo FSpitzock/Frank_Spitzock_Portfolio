@@ -12,7 +12,7 @@ function Footer () {
         </div>
     
 
-      <p className="footer-copy">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      <p className="footer-copy">&copy; {new Date().getFullYear()} Frank Spitzock. All rights reserved.</p>
         </footer>
     </>
     )
