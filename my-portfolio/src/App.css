@@ -40,3 +40,68 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Navigation */
+.nav {
+     top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: right;
+    gap: 20px;
+    padding: 15px;
+    
+}
+
+.nav-link {
+  background: navy;
+  color: white;
+  justify-content: right;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid rgb(1, 2, 58);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover {
+  background: blue;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link:active {
+  transform: translateY(0);
+}
+
+.navFoot {
+
+  background-color: none;
+}
+
+.navFoot .nav-link {
+  background: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  align-content: center;
+  
+  
+
+}
+
+.navFoot .nav-link:hover {
+  background: none;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.navFoot .nav-link:active {
+  transform: translateY(0);
+}
