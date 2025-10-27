@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import Project from './pages/Portfolio'
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Navigation/> 
+    <Header/>
+     
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/Portfolio" element={<Portfolio/>}/>

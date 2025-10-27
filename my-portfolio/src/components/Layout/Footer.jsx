@@ -4,9 +4,9 @@ function Footer () {
     return(
         <>
         <footer className="footer">
-        <h4>Frank Spitzock Portfolio</h4>
+        <p>Frank Spitzock Portfolio</p>
 
-        <ul>Quick Links</ul>
+        <p>Quick Links</p>
         <div className="navFoot">
         <Navigation/>
         </div>

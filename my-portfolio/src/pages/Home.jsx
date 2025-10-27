@@ -8,7 +8,7 @@ function Home () {
         <img className="profilePic" src={ProfilePic} alt="Profile Picture"/>
         </div>
       
-      <div> 
+      <div class = "homeDesc">
         <p>Welcome! I'm Frank Spitzock.
             <br></br>
             Full-Stack Developer & Problem Solver.
