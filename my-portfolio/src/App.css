@@ -195,3 +195,62 @@ color: white;
 border-radius: 5px;
 border: solid 2px black;
 }
+
+
+
+.portfolio-page {
+  background-color: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #58a6ff;
+}
+
+/* Gallery layout */
+.projects-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Cards */
+.project-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.3);
+}
+
+.project-card h3 {
+  color: #58a6ff;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  color: #c9d1d9;
+  font-size: 0.95rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #58a6ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
