@@ -170,3 +170,28 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
+
+.core-list {
+   list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 0;
+} 
+
+.core-list li {
+  background: none;
+  list-style: none;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.core-tech {
+font-size: large;
+font-family:'Courier New', Courier, monospace;
+background-color: navy;
+color: white;
+border-radius: 5px;
+border: solid 2px black;
+}

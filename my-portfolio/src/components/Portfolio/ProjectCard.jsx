@@ -1,20 +1,28 @@
+import React from "react";
 
-
-function Card({ title = 'Card Title', description = '', accentColor = '#646cff', footerText }) {
-  const style = {
-    borderLeft: `4px solid ${accentColor}`,
-    padding: '12px 16px',
-    background: 'var(--card-bg, rgba(255,255,255,0.02))',
-    borderRadius: 8,
-  };
-
+function ProjectCard({ project }) {
   return (
-    <article style={style} className="props-card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      {footerText && <small>{footerText}</small>}
-    </article>
+    <div className="project-card">
+      <img
+        className="project-thumbnail"
+        src={project.thumbnail}
+        alt={project.title}
+      />
+      <h3 className="project-title">{project.title}</h3>
+      <p className="project-description">{project.description}</p>
+      <p className="project-tech">
+        Technologies: {project.technologies.join(", ")}
+      </p>
+      <a
+        className="project-link"
+        href={project.githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View on GitHub
+      </a>
+    </div>
   );
 }
 
-export default Card
+export default ProjectCard;

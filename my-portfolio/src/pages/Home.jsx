@@ -8,7 +8,7 @@ function Home () {
         <img className="profilePic" src={ProfilePic} alt="Profile Picture"/>
         </div>
       
-      <div class = "homeDesc">
+      <div className = "homeDesc">
         <p>Welcome! I'm Frank Spitzock.
             <br></br>
             Full-Stack Developer & Problem Solver.
@@ -18,6 +18,25 @@ function Home () {
             and modern web technologies, I bring ideas to life through code.
         </p>
         </div> 
+        <h4 className="core-tech">Core Technologies</h4>
+        <div className="core-list">
+          
+          <ul><strong>Frontend Development</strong>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>TyoeScript</li>
+            <li>CSS</li>
+            <li>HTML5</li>
+          </ul>
+
+           <ul><strong>Backend Development</strong>
+            <li>SQL</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Java</li>
+           </ul>
+
+        </div>
 
         </>
     )
