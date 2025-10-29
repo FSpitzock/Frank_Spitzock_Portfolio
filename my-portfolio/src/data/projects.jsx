@@ -1,6 +1,9 @@
+import Thumbnail from '../assets/Thumbnail.png';
+
 export const projects = [
   {
     id: 1,
+    thumbnail: Thumbnail,
     title: "Code Refactor",
     description: "HTML capstone project",
     technologies: ["HTML", "CSS"],
@@ -9,6 +12,7 @@ export const projects = [
 
   {
     id: 2,
+    thumbnail: Thumbnail,
     title: "CSS Capstone",
     description: "CSS capstone project",
     technologies: ["HTML", "CSS"],
@@ -17,8 +21,9 @@ export const projects = [
 
     {
     id: 3,
-    title: "CSS Capstone",
-    description: "CSS capstone project",
+    thumbnail: Thumbnail,
+    title: "JavaScript Capstone",
+    description: "JavaScript capstone project",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/FSpitzock/Week_3_JS_Dragon_Rune_Adventure"
   },
