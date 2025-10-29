@@ -1,4 +1,8 @@
 # Frank_Spitzock_Portfolio
+<<<<<<< HEAD
+=======
+# Frank_Spitzock_Portfolio
+>>>>>>> 88c7fec74e5076ce95b447ecede60f5668206ef4
 This is a professional Portfolio for Frank Spitzock.
 💼 Frank Spitzock — Developer Portfolio
 
@@ -65,4 +69,8 @@ Basics of deploying modern web apps
 Frank Spitzock
 📧 Email: fspitzock@yahoo.com
 🌐 Portfolio: https://github.com/FSpitzock/Frank_Spitzock_Portfolio
+<<<<<<< HEAD
 💼 GitHub: https://github.com/FSpitzock
+=======
+💼 GitHub: https://github.com/FSpitzock
+>>>>>>> 88c7fec74e5076ce95b447ecede60f5668206ef4
