@@ -1,8 +1,3 @@
-# Frank_Spitzock_Portfolio
-<<<<<<< HEAD
-=======
-# Frank_Spitzock_Portfolio
->>>>>>> 88c7fec74e5076ce95b447ecede60f5668206ef4
 This is a professional Portfolio for Frank Spitzock.
 💼 Frank Spitzock — Developer Portfolio
 
