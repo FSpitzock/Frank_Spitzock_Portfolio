@@ -44,10 +44,13 @@
 /*Profile Pic*/
 
 .profilePic {
- width: 150px;
- height: 150px;
- border-radius: 50px;
- margin-top: 20px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.4);
 }
 
 
@@ -167,33 +170,66 @@
 }
 
 .homeDesc {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  display: flex;
+  width: 500px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.4);
 }
 
 .core-list {
-   list-style: none;
-  display:grid;
+  list-style: none;
+  display:flex;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
   padding: 0;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
 } 
 
-.core-list li {
-  background: none;
+
+.core-list ul {
   list-style: none;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.core-list ul:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.3);
+}
+
+.core-list strong {
+  color: #58a6ff;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.core-list li {
+  text-align: center;
+  color: #e6edf3;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
 }
 
 .core-tech {
-font-size: large;
+font-size:x-large;
 font-family:'Courier New', Courier, monospace;
 background-color: navy;
-color: white;
 border-radius: 5px;
 border: solid 2px black;
+text-align: center;
+margin-top: 2.5rem;
+color: white;
 }
 
 
@@ -253,4 +289,93 @@ border: solid 2px black;
 
 .project-card a:hover {
   text-decoration: underline;
+}
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: "Inter", sans-serif;
+  font-size: large;
+}
+
+/* ===== FOOTER STYLES ===== */
+
+.footer {
+  background-color: #0d1117; /* Deep dark background */
+  color: #e6edf3; /* Light gray text */
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #30363d; /* Subtle top border */
+  margin-top: 3rem;
+  font-family: "Inter", sans-serif;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Highlighted header text */
+.footer p:first-of-type {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #58a6ff;
+  letter-spacing: 0.5px;
+}
+
+/* Quick Links heading */
+.footer p:nth-of-type(2) {
+  margin-top: 1.2rem;
+  color: #9ca3af;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Navigation area inside the footer */
+.navFoot {
+  margin: 1rem auto 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Style for navigation links (from Navigation component) */
+.navFoot a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navFoot a:hover {
+  color: #1f6feb;
+  transform: translateY(-2px);
+}
+
+/* Copyright line */
+.footer-copy {
+  font-size: 0.9rem;
+  color: #8b949e;
+  margin-top: 1rem;
+  border-top: 1px solid #30363d;
+  padding-top: 1rem;
+}
+
+/* Make sure footer looks clean on mobile */
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 1.5rem 0.8rem;
+  }
+
+  .navFoot {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .navFoot a {
+    display: block;
+    padding: 0.3rem 0;
+  }
 }

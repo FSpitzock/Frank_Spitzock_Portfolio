@@ -14,7 +14,9 @@ function Home () {
             Full-Stack Developer & Problem Solver.
             <br></br><br></br>
             I'm passionate about creating efficient, user-friendly web applications 
-            that solve real-world problems. <br></br>With expertise in JavaScript, React, 
+            that solve real-world problems. 
+            <br></br><br></br>
+            With expertise in JavaScript, React, 
             and modern web technologies, I bring ideas to life through code.
         </p>
         </div> 
@@ -24,7 +26,7 @@ function Home () {
           <ul><strong>Frontend Development</strong>
             <li>React</li>
             <li>JavaScript</li>
-            <li>TyoeScript</li>
+            <li>TypeScript</li>
             <li>CSS</li>
             <li>HTML5</li>
           </ul>
