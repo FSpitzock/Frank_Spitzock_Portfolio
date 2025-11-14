@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Frank_Spitzock_Portfolio/', 
   plugins: [react()],
+  
 })
