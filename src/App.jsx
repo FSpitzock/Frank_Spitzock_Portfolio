@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename='/Frank_Spitzock_Portfolio/'>
+    <BrowserRouter basename='/'>
     <Header/>
      
     <Routes>
