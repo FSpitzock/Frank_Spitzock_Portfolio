@@ -16,7 +16,7 @@ function Contact() {
       {showResume ? (
         <div className="card">
           <h3>Resume</h3>
-          <p>Download my resume <a href="./src/assets/resume.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
+          <p>Download my resume <a href="https://fspitzock.github.io/Frank_Spitzock_Portfolio/src/assets/resume.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
          </div>
       ) : (
         <div className="card">
