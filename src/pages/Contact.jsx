@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [showResume, setShowResume] = useState(false); // false = show contact info
@@ -16,8 +17,13 @@ function Contact() {
       {showResume ? (
         <div className="card">
           <h3>Resume</h3>
-          <p>Download my resume <a href="https://fspitzock.github.io/Frank_Spitzock_Portfolio/src/assets/resume.html" target="_blank" rel="noopener noreferrer">here</a>.</p>
-         </div>
+          <p>
+            View my resume{" "}
+            <Link to="/resume" className="btn-link">
+              here
+            </Link>.
+          </p>
+        </div>
       ) : (
         <div className="card">
           <h3>Contact Info</h3>
