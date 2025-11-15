@@ -1,0 +1,71 @@
+.resume-modern {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff; /* White background */
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  color: #111;
+}
+
+.sidebar {
+  width: 30%;
+  background: #f5f5f5; /* light gray sidebar for contrast */
+  color: #111;
+  padding: 30px 25px;
+}
+
+.sidebar h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.contact-block p,
+.skills-block ul li {
+  margin: 6px 0;
+}
+
+.skills-block h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.skills-block ul {
+  padding-left: 20px;
+}
+
+.content {
+  width: 70%;
+  padding: 35px 40px;
+  background: #ffffff; /* ensure content area is white */
+}
+
+.content section {
+  margin-bottom: 25px;
+}
+
+.content h3 {
+  font-size: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.job h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.job ul {
+  margin-left: 20px;
+  margin-top: 5px;
+}
