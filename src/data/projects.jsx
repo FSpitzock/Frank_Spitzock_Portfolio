@@ -33,6 +33,7 @@ export const projects = [
     title: "Diamond Data Baseball Stat Tracker",
     description: "Track baseball stats for each game.",
     technologies: ["TypeScript","JavaScript","HTML", "CSS"],
-    githubUrl: "https://fspitzock.github.io/Diamond_Data_Baseball_Stat_Tracker/"
+    githubUrl: "https://github.com/FSpitzock/Diamond_Data_Baseball_Stat_Tracker",
+    vercel:"https://diamond-data.vercel.app/",
   },
 ];

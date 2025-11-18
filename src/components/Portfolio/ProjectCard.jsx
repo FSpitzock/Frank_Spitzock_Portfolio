@@ -21,6 +21,17 @@ function ProjectCard({ project }) {
       >
         View on GitHub
       </a>
+      <br></br>
+       {project.vercel && (
+        <a
+          href={project.vercel}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          Live Demo
+        </a>
+       )}
     </div>
   );
 }
