@@ -27,4 +27,12 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/FSpitzock/Week_3_JS_Dragon_Rune_Adventure"
   },
+    {
+    id: 4,
+    thumbnail: Thumbnail,
+    title: "Diamond Data Baseball Stat Tracker",
+    description: "Track baseball stats for each game.",
+    technologies: ["TypeScript","JavaScript","HTML", "CSS"],
+    githubUrl: "https://fspitzock.github.io/Diamond_Data_Baseball_Stat_Tracker/"
+  },
 ];
