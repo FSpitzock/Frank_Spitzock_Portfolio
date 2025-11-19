@@ -91,38 +91,6 @@
 }
 /*---------------------*/
 
-/* Footer Navigation */
-.navFoot {
-
-  background-color: none;
-}
-
-.navFoot .nav-link {
-  background: none;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  border: none;
-  align-content: center;
-  font-weight: 100;
-  border: none;
-  border-radius: 0;
-  text-decoration: none;
-}
-
-.navFoot .nav-link:hover {
-  background: none;
-  color: white;
-  transform: translateY(-5px);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-}
-
-.navFoot .nav-link:active {
-  transform: translateY(0);
-}
-
 /* page not found css */
 .notfound {
   text-align: center;
@@ -311,24 +279,41 @@ body {
   font-size: large;
 }
 
-/* ===== FOOTER STYLES ===== */
-
+/* ===== FOOTER WRAPPER ===== */
 .footer {
-  background-color: #0d1117; /* Deep dark background */
-  color: #e6edf3; /* Light gray text */
-  text-align: center;
-  padding: 2rem 1rem;
-  border-top: 1px solid #30363d; /* Subtle top border */
+  background-color: #0d1117;
+  color: #e6edf3;
+  border-top: 1px solid #30363d;
   margin-top: 3rem;
   font-family: "Inter", sans-serif;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px; /* space between badge and right content */
+  padding: 20px;
+  flex-wrap: wrap; /* mobile responsive */
 }
 
+/* ===== LEFT BADGE ===== */
+.footer-badge {
+  max-width: 200px;
+}
+
+/* ===== RIGHT SIDE CONTENT ===== */
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Generic footer text */
 .footer p {
   margin: 0.5rem 0;
   font-size: 1rem;
 }
 
-/* Highlighted header text */
+/* Title */
 .footer p:first-of-type {
   font-weight: 600;
   font-size: 1.2rem;
@@ -336,37 +321,42 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Quick Links heading */
+/* Quick Links header */
 .footer p:nth-of-type(2) {
   margin-top: 1.2rem;
   color: #9ca3af;
   font-weight: 500;
-  font-size: 1rem;
 }
 
-/* Navigation area inside the footer */
+/* ===== NAV FOOTER ===== */
 .navFoot {
-  margin: 1rem auto 1.5rem;
+  margin-top: 1rem;
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 4px;
 }
 
-/* Style for navigation links (from Navigation component) */
 .navFoot a {
-  color: #58a6ff;
+  color: #9fb6d1;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease, transform 0.2s ease;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+  padding: 2px 0;
 }
 
 .navFoot a:hover {
-  color: #1f6feb;
-  transform: translateY(-2px);
+  color: #58a6ff;
+  padding-left: 6px;
 }
 
-/* Copyright line */
+.navFoot a:active {
+  color: #1f6feb;
+}
+
+/* ===== COPYRIGHT LINE ===== */
 .footer-copy {
   font-size: 0.9rem;
   color: #8b949e;
@@ -375,20 +365,14 @@ body {
   padding-top: 1rem;
 }
 
-/* Make sure footer looks clean on mobile */
+/* ===== MOBILE ===== */
 @media (max-width: 600px) {
   .footer {
     font-size: 0.9rem;
     padding: 1.5rem 0.8rem;
-  }
-
-  .navFoot {
-    gap: 1rem;
-    flex-direction: column;
-  }
-
-  .navFoot a {
-    display: block;
-    padding: 0.3rem 0;
+    gap: 20px;
   }
 }
+
+
+
