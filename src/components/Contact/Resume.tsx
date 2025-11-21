@@ -69,7 +69,8 @@ const ResumeModern: React.FC = () => {
 
         <section>
           <h3>Education</h3>
-          <p>Valencia College — Associate in Arts (2014)</p>
+          <p>University of Central Florida - Frontend Software Development (2025)</p>
+          <p>Valencia College - Associate in Arts (2014)</p>
         </section>
       </main>
     </div>
